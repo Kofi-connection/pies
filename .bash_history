@@ -322,3 +322,194 @@ man grep
 grep -v 'ATOM'|'CONECT'|'HETATM'|'TER'|'END'| 4HKD.pdb
 grep 'ATOM' 4HKD.pdb
 grep 'ATOM'4HKD.pdb | grep 'CONCET'
+cat 4HKD.pdb
+man git-log
+tar xzf project.tar.gz
+touch project.tar.gz
+tar xzf project.tar.gz
+rm project.tar.gz
+ls
+tar -cvf project.tar /home/kosae1
+ls
+tar xzf project.tar
+cd project
+tar xzf project.tar.gz
+rm project.tar
+tar -cvf project.tar.gz /home/kosae1/Submissions
+tar xzf project.tar.gz
+rm project.tar.gz
+tar -czvf project.tar.gz /home/kosae1/Submissions
+tar xzf project.tar.gz
+cd project
+ls -l
+cat project.tar.gz
+tar -xzvf projects.tar.gz
+tar -xzvf project.tar.gz
+cd project
+cd project.tar.gz
+git init 
+git add .
+git commit
+clear                                                                                                            
+git commit 
+git config --global user.email kosae1@student.gsu.edu
+git config --global user.name Kofi-connection 
+git commit
+git remote add origin git@github.com:Kofi-connection/Kofi-.git
+git push -u origin master
+echo "# Kofi-" >> README.md
+git init 
+git add README.md
+git commit -m My\ Hunger\ Games.txt
+git remote add origin git@github.com:Kofi-connection/Kofi-.git
+git remote add orgin git@github.com:Kofi-connection/.git
+git push -u origin master
+ls -l
+git add .
+git commit 
+git log 
+git remote add git@github.com:Kofi-connection/Homework.git
+git remote add origin git@github.com:Kofi-connection/Homework.git
+git push -u origin master
+ssh-agent -s
+pbcopy < ~/.ssh/id_rsa.pub
+ls -al ~/.ssh
+ssh-keygen -t rsa -b 4069 -C kosae1@student.gsu.edu
+pbcopy < ~/.ssh/id_rsa.pub
+ssh-agent -s
+open ~/.ssh/config
+touch ~/.ssh/config
+open ~/.ssh/config
+git push -u orgin master
+git remote rm origin
+git remote add origin https://github.com/Kofi-connection/Kofi-
+git push -u origin master
+man grep
+cat 4HKD.pdb
+grep 'ATOM' 4HKD.pdb
+grep 'CONECT' 4HKD.pdb
+man grep
+grep -i 'ATOM' 4HKD.pdb
+grep -v 'ATOM' 4HKD.pdb
+man grep
+grep -v 'ATOM\|CONECT\|HETATM\|TER\|END' 4HKD.pdb
+man sed 
+sed -i 's/HETATM/ATOM/g' 4HKD.pdb
+sed -i 's/MSE/MET/g' 4HKD.pdb
+grep 4HKD.pdb
+cat 4HKD.pdb
+sed -i 's/HETATM/ATOM/g' 4HKD.pdb
+sed -i 's/MSE/MET/g' 4HKD.pdb
+cat 4HKD.pdb
+man awk
+rm 4HKD.pdb
+cd /home/cumoja1/3320
+cp 4HKD.pdb /home/kosae1
+cd /home/kosae1
+ls
+sed -i 's/HETATM/ATOM  /g' 4HKD.pdb
+cat 4HKD.pdb
+sed -i 's/MSE/MET/g' 4HKD.pdb
+man awk
+awk 'BEGIN{x=1000}{if ($1<0+x) x=$1} END{print a}' 4HKD.pdb
+cd /home/cumoja1/3320
+ls
+$
+cd /home/kosae1
+awk '{print $7,$8,$9}' 4HKD.pdb
+awk '/ATOM/{print}' 4HKD.pdb
+awk 'BEGIN { x=$7; y=$8 z=$9;
+awk 'BEGIN { x=$7; y=$8; z=$9;
+awk '/ATOM/ BEGIN { x=$7; y=$8; z=$9; if (x>y && x>z) print x; else if (y>x && y>z) print y; else if (z>x && z>y) print z; }' 4HKD.pdb
+awk 'BEGIN { 
+x=$7; y=$8; z=$9; 
+if (x>y && x>z) print "max ="x; else if (y>x && y>z) print "max =" y; else if (z>x && z>y) print "max =" z;
+}' 4HKD.pdb
+cat 4HKD.pdb
+man awk
+awk 'BEGIN {
+x=$7;
+y=$8;
+z=$9;
+if (x>y && x>z)
+print "max ="x;
+else if (y>x && y>z)
+print "max ="y;
+else if (z>y && z>x)
+print "max ="z;
+}' 
+awk '/ATOM/{print $7,$8,$9}' 4HKD.pdb
+awk 'BEGIN {
+a=30;
+if (a==30)
+print "a=30";
+else if (a>30)
+print "a is not equal to 30";
+}'
+awk ' {print x=$7,y=$8,z=$9}' 4HKD.pdb
+awk '/ATOM/ {
+if ($7>$8 && $7>$9)
+print "max =" $7;
+else if ($8>$7 && $8>$9)
+print "max =" $8;
+else if ($9>$7 && $9>$8)
+print "max =" $9;
+awk '/ATOM/ BEGIN {
+if ($7>$8 && $7>$9)
+print "max ="$7;
+else if ($8>$7 && $8>$9)
+print "max ="$8;
+else if ($9>$7 && $9>$8)
+print "max ="$9;
+}' 4HKD.pdb
+awk '/ATOM/BEGIN {
+if ($7>$8 && $7>$9)
+print "max ="$7;
+else if ($8>$7 && $8>$9)
+print "max ="$8;
+}' 4HKD.pdb
+awk '/ATOM/ 'BEGIN{
+awk '/ATOM/{ BEGIN {x=$7; y=$8; z=$9; if(x>y && x>z) print "max =x"} }'
+awk '/ATOM/ {x=$7; y=$8; z=$9; if (x>y && x>z) print "max=x"}' 4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; if (x>y && x>z print "max = x"; else if (y>x && y>z) print "max = y"; else if (z>x && z>y) print "max = z";}'4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; if(y>x && y>z) print "max=y"}' 4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; if(z>x && z>y) print "max=z"}' 4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; if(x<y && x<z) print "min =x"}' 4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; if (y<x && y<z) print "min=y"}' 4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; if (z<x && z<y) print "min=z"}' 4HKD.pdb
+awk '/HETATM/{print}' 4HKD.pdb
+awk '/ATOM/ {x=$7; y=$8; z=$9; print "mean =",((x+y+z)/3) }'
+awk '/ATOM/ {x=$7; y=$8; z=$9; print"mean =",((x+y+z)/3) }' 4HKD.pdb
+grep -v 'HOH'4HKD.pdb
+grep -n "HOH" 4HKD.pdb
+sed -i 's/HOH/WAT/g' 4HKD.pdb
+grep -n "WAT" 4HKD.pdb
+cat 4HKD.pdb
+awk '{print NR,$11}' 4HKD.pdb
+awk '/ATOM/{print $11}' 4HKD.pdb
+awk '/ATOM/{print NR,$11}' 4HKD.pdb
+man sort 
+man sort
+sort -n 4HKD.pdb
+sort -k11 -n 4HKD.pdb
+cd /home/cumoja1
+~/
+~/home
+/home/kosae1
+cd /home/kosae1
+ls
+cd /home/dshah8/
+cp /home/dshah8/lab2data.txt /home/kosae1
+man 
+man cp
+cd /home/cumoja1/3320
+ls
+cd /home/cumoja1
+ls
+cd /home/kosae1
+ls
+cat labfile2
+cat lab1
+cd /home/kosae1/lab1
+ls
+cd /home/kosae1
