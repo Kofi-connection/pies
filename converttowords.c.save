@@ -1,0 +1,28 @@
+
+#include <stdio.h> 
+#include <string.h> 
+#include <stdlib.h> 
+int main (void){
+  convert_to_words("33");
+  return 0;
+}
+
+void convert_to_words(char *num) 
+{ 
+    int len = strlen(num); 
+  
+    
+    if (len == 0) { 
+        fprintf(stderr, "empty string\n"); 
+        return; 
+    } 
+    if (len >= 3) { 
+        fprintf(stderr, "Type in numbers less than 100\n"); 
+        return; 
+    } 
+  
+    
+    char *single_digits[] = { "zero", "one", "two", "three", "four","five",  "six", "seven", "eight", "nine"}; 
+  
+    /* The first string is not used, it is to make  
+        array indexing simple */

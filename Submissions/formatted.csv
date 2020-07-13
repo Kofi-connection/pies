@@ -1,0 +1,14 @@
+#! /bin/bash
+
+INPUT=rows.csv
+OLDIFS=$IFS
+IFS=','
+[! -f $INPUT] && {echo "INPUT file not found";exit 99;}
+while read ID Date DateType Age Sex Race ResidenceCity ResidenceCounty ResidenceState DeathCity
+DeathCounty Location LocationifOther DescriptionofInjury InjuryPlace InjuryCity InjuryCounty
+InjuryState COD OtherSignican Heroin Cocaine Fentanyl FentanylAnalogue Oxycodone Oxymor-
+phone Ethanol Hydrocodone Benzodiazepine Methadone Amphet Tramad Morphine NotHeroin
+Hydromorphone Other OpiateNOS AnyOpioid MannerofDeath DeathCityGeo ResidenceCityGeo
+InjuryCityGeo
+do
+  echo $ID echo $Date 
