@@ -8,9 +8,12 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:q
+:wq
+:WQ
+:w
 :x
 :q!
-:wq
 
 # Search String History (newest to oldest):
 
@@ -23,15 +26,41 @@
 # Registers:
 
 # File marks:
-'0  387  0  ~/Submissions/My Hunger Games.txt
-'1  7  0  ~/popd
-'2  8  0  ~/pushd
-'3  8  0  ~/Submissions/ReadMe.md
-'4  12  0  ~/Submissions/ReadMe.md
-'5  1091  0  ~/Submissions/My Hunger Games.txt
-'6  6  0  ~/hello.c
+'0  15  1  ~/try.c
+'1  10  3  ~/tiks.c
+'2  8  2  ~/tiks.c
+'3  1  0  ~/ticks.c
+'4  24  0  ~/tiks.c
+'5  17  0  ~/try.c
+'6  12  16  ~/try.c
+'7  25  0  ~/try.c
+'8  10  14  ~/try.c
+'9  29  0  ~/homework1.c
 
 # Jumplist (newest first):
+-'  15  1  ~/try.c
+-'  17  1  ~/try.c
+-'  10  3  ~/tiks.c
+-'  8  3  ~/tiks.c
+-'  1  0  ~/ticks.c
+-'  24  0  ~/tiks.c
+-'  1  0  ~/tiks.c
+-'  12  2  ~/try.c
+-'  25  0  ~/try.c
+-'  10  1  ~/try.c
+-'  14  2  ~/try.c
+-'  29  0  ~/homework1.c
+-'  16  0  ~/homework1.c
+-'  5  1  ~/homework1.c
+-'  13  1  ~/homework1.c
+-'  21  2  ~/homework1.c
+-'  1  0  ~/homework1.c
+-'  3  0  ~/try.c
+-'  9  1  ~/try.c
+-'  26  0  ~/try.c
+-'  2  0  ~/try.c
+-'  1  0  ~/try.c
+-'  36  0  ~/try.c
 -'  387  0  ~/Submissions/My Hunger Games.txt
 -'  1  0  ~/Submissions/My Hunger Games.txt
 -'  7  0  ~/popd
@@ -97,8 +126,93 @@
 -'  1  0  ~/hello.c
 -'  6  0  ~/hello.c
 -'  1  0  ~/hello.c
+-'  387  0  ~/Submissions/My Hunger Games.txt
+-'  1  0  ~/Submissions/My Hunger Games.txt
+-'  7  0  ~/popd
+-'  1  0  ~/popd
+-'  8  0  ~/pushd
+-'  1  0  ~/pushd
+-'  8  0  ~/Submissions/ReadMe.md
+-'  12  0  ~/Submissions/ReadMe.md
+-'  1  0  ~/Submissions/ReadMe.md
 
 # History of marks within files (newest to oldest):
+
+> ~/try.c
+	"	15	1
+	^	17	1
+	.	10	21
+	+	2	43
+	+	2	35
+	+	7	49
+	+	7	111
+	+	7	120
+	+	7	76
+	+	7	22
+	+	7	122
+	+	23	1
+	+	28	0
+	+	43	0
+	+	28	0
+	+	1	0
+	+	2	17
+	+	3	0
+	+	2	17
+	+	4	3
+	+	5	0
+	+	10	32
+	+	12	38
+	+	17	18
+	+	6	11
+	+	18	6
+	+	16	21
+	+	19	0
+	+	21	34
+	+	18	7
+	+	21	44
+	+	22	9
+	+	10	15
+	+	12	38
+	+	9	39
+	+	3	0
+	+	11	3
+	+	15	3
+	+	11	1
+	+	10	15
+	+	12	42
+	+	13	20
+	+	10	21
+
+> ~/tiks.c
+	"	10	3
+	^	8	3
+	.	8	3
+	+	10	30
+	+	24	0
+	+	8	3
+
+> ~/ticks.c
+	"	1	0
+
+> ~/homework1.c
+	"	29	0
+	^	16	0
+	.	12	19
+	+	8	40
+	+	19	15
+	+	21	43
+	+	29	0
+	+	5	21
+	+	21	36
+	+	13	6
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	21	38
+	+	17	14
+	+	5	21
+	+	12	19
 
 > ~/Submissions/My Hunger Games.txt
 	"	387	0

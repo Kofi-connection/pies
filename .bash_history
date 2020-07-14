@@ -1,46 +1,3 @@
-cp labfile labfile2
-ls
-rm labfile
-ls
-python ~/3320/perverse.py
-cd /home/cumoja1
-ls
-cd /3320
-cd ~/3320
-cd /home/cumoja1/3320
-ls
-python ~/3320/perverse.py
-python perverse.py
-/home/kosae1
-cd /home/kosae1
-python /home/cumoja1/perverse.py
-python /home/cumoja1/3320/perverse.py
-whomai
-man whoami
-whoami
-man man 
-man
-touch --help
-man
-cp -R
-cp --help
-w
-touch man 
-man
-touch
-touch --help
-mac
-man
-cp
-cp --help
-man
-man man
-man 
-cp --help
-man
-touch --help
-clear
-man
 man man 
 man 
 touch --help
@@ -998,3 +955,46 @@ nano converttowords.c
 gcc converttowords.c
 ./a.out
 nano converttowords.c
+nano converttowords.c
+gcc converttowords.c
+./a.out
+nano converttowords.c
+git add
+git add .
+git commit -m
+git commit -m "converttowords.c"
+git push origin git@github.com:Kofi-connection/Lab.git
+git remove origin
+git remote remove origin
+git push origin git@github.com:Kofi-connection/Lab.git
+git push -u origin master 
+git remote add origin git@github.com:Kofi-connection/Lab.git
+git push -u origin master 
+git remote remove origin
+git remote add origin git@github.com:Kofi-connection/Lab.git
+git push -u orgin master
+git remote rm origin
+git remote add origin https://github.com/Kofi-connection/Lab.git
+git push -u origin master 
+cd /home/cumoja1
+ls
+cp message1.txt /home/kosae1
+cp ceasar1.txt /home/kosae1
+cp ceaser.txt /home/kosae1
+cp ceaser1.txt /home/kosae
+cp ceaser1.txt /home/kosae1
+cp ceaser2.txt /home/kosae1
+cd home/kosae1
+cd /home/kosae1
+ls
+cat message1.txt
+nano args.c
+gcc args.c -o args
+./args
+./args ya digg
+nano args.c
+gcc args.c -o args
+./args
+./args ya digg!
+./
+./args this is pretty cool
