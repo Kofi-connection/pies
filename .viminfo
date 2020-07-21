@@ -7,15 +7,22 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~Msle0~/\<print\>
+
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
+:.!
+:!q
+:wq:
 :WQ
 :w
 :x
 :q!
 
 # Search String History (newest to oldest):
+? \<print\>
 
 # Expression History (newest to oldest):
 
@@ -26,18 +33,67 @@
 # Registers:
 
 # File marks:
-'0  15  1  ~/try.c
-'1  10  3  ~/tiks.c
-'2  8  2  ~/tiks.c
-'3  1  0  ~/ticks.c
-'4  24  0  ~/tiks.c
-'5  17  0  ~/try.c
-'6  12  16  ~/try.c
-'7  25  0  ~/try.c
-'8  10  14  ~/try.c
-'9  29  0  ~/homework1.c
+'0  49  2  ~/python/q8.py
+'1  30  6  ~/python/q6.py
+'2  34  6  ~/python/q8.py
+'3  39  3  ~/python/q6.py
+'4  1  0  ~/python/q8.py
+'5  47  37  ~/python/q7.py
+'6  44  22  ~/python/q7.py
+'7  30  5  ~/python/q7.py
+'8  1  10  ~/python/q7.py
+'9  49  0  ~/python/q6.py
 
 # Jumplist (newest first):
+-'  49  2  ~/python/q8.py
+-'  34  0  ~/python/q8.py
+-'  30  6  ~/python/q6.py
+-'  39  0  ~/python/q6.py
+-'  1  0  ~/python/q8.py
+-'  43  3  ~/python/q6.py
+-'  47  37  ~/python/q7.py
+-'  44  3  ~/python/q7.py
+-'  30  0  ~/python/q7.py
+-'  1  0  ~/python/q7.py
+-'  49  0  ~/python/q6.py
+-'  45  6  ~/python/q6.py
+-'  33  0  ~/python/q6.py
+-'  34  0  ~/python/q6.py
+-'  36  0  ~/python/q6.py
+-'  6  0  ~/python/io.py
+-'  31  0  ~/python/q6.py
+-'  1  0  ~/python/q6.py
+-'  33  2  ~/python/q5.py
+-'  40  0  ~/python/q5.py
+-'  1  91  ~/python/q5.py
+-'  28  3  ~/python/q5.py
+-'  10  20  ~/python/q4.py
+-'  11  0  ~/python/q4.py
+-'  1  0  ~/q3.py
+-'  1  0  ~/q4.py
+-'  9  0  ~/python/q4.py
+-'  1  0  ~/python/q4.py
+-'  4  31  ~/python/q3.py
+-'  6  2  ~/python/q3.py
+-'  5  40  ~/python/q3.py
+-'  7  4  ~/python/q3.py
+-'  17  3  ~/python/q3.py
+-'  15  0  ~/python/q3.py
+-'  16  6  ~/python/q3.py
+-'  18  0  ~/python/q3.py
+-'  1  0  ~/python/q3.py
+-'  1  0  ~/python/io.pyc
+-'  13  0  ~/python/q2.py
+-'  14  0  ~/python/q3.py
+-'  20  1  ~/python/q3.py
+-'  21  0  ~/python/q3.py
+-'  1  0  ~/leap.c
+-'  1  0  ~/python/q2.py
+-'  2  0  ~/python/io.py
+-'  3  0  ~/python/io.py
+-'  1  0  ~/python/io.py
+-'  2  0  ~/python/hello.py
+-'  1  0  ~/python/hello.py
 -'  15  1  ~/try.c
 -'  17  1  ~/try.c
 -'  10  3  ~/tiks.c
@@ -87,56 +143,322 @@
 -'  6  0  ~/hello.c
 -'  1  0  ~/hello.c
 -'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  8  0  ~/Submissions/ReadMe.md
--'  12  0  ~/Submissions/ReadMe.md
--'  1  0  ~/Submissions/ReadMe.md
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  8  0  ~/Submissions/ReadMe.md
--'  12  0  ~/Submissions/ReadMe.md
--'  1  0  ~/Submissions/ReadMe.md
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  6  0  ~/hello.c
--'  1  0  ~/hello.c
--'  387  0  ~/Submissions/My Hunger Games.txt
--'  1  0  ~/Submissions/My Hunger Games.txt
--'  7  0  ~/popd
--'  1  0  ~/popd
--'  8  0  ~/pushd
--'  1  0  ~/pushd
--'  8  0  ~/Submissions/ReadMe.md
--'  12  0  ~/Submissions/ReadMe.md
--'  1  0  ~/Submissions/ReadMe.md
 
 # History of marks within files (newest to oldest):
+
+> ~/python/q8.py
+	"	49	2
+	^	49	3
+	.	49	2
+	+	1	14
+	+	50	0
+	+	1	15
+	+	5	0
+	+	3	12
+	+	2	12
+	+	1	10
+	+	29	6
+	+	35	0
+	+	36	18
+	+	37	24
+	+	38	43
+	+	36	44
+	+	39	46
+	+	40	23
+	+	41	27
+	+	47	45
+	+	48	4
+	+	49	2
+
+> ~/python/q6.py
+	"	30	6
+	^	30	7
+	.	30	6
+	+	17	19
+	+	25	0
+	+	34	13
+	+	33	37
+	+	36	5
+	+	1	13
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	1	0
+	+	36	47
+	+	36	29
+	+	48	43
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	35	9
+	+	42	0
+	+	48	0
+	+	26	0
+	+	34	45
+	+	33	0
+	+	46	0
+	+	44	2
+	+	30	6
+
+> ~/python/q7.py
+	"	47	37
+	^	47	38
+	.	47	37
+	+	45	0
+	+	4	0
+	+	3	12
+	+	5	8
+	+	6	13
+	+	7	5
+	+	8	5
+	+	9	5
+	+	10	5
+	+	11	6
+	+	14	22
+	+	15	22
+	+	16	26
+	+	17	26
+	+	18	24
+	+	19	24
+	+	20	28
+	+	21	26
+	+	22	24
+	+	23	15
+	+	24	22
+	+	25	20
+	+	26	20
+	+	27	20
+	+	28	24
+	+	29	22
+	+	30	6
+	+	29	6
+	+	28	6
+	+	27	6
+	+	26	6
+	+	25	6
+	+	24	6
+	+	23	6
+	+	22	6
+	+	21	6
+	+	20	6
+	+	19	6
+	+	18	6
+	+	17	6
+	+	16	6
+	+	15	6
+	+	14	6
+	+	43	3
+	+	44	36
+	+	2	5
+	+	3	5
+	+	4	5
+	+	5	5
+	+	6	5
+	+	7	5
+	+	8	5
+	+	9	5
+	+	10	6
+	+	11	5
+	+	10	5
+	+	14	5
+	+	15	8
+	+	16	5
+	+	17	5
+	+	18	5
+	+	19	5
+	+	20	5
+	+	21	5
+	+	22	5
+	+	23	5
+	+	24	5
+	+	25	5
+	+	26	5
+	+	27	5
+	+	28	5
+	+	29	5
+	+	30	5
+	+	44	22
+	+	35	3
+	+	36	0
+	+	39	0
+	+	42	0
+	+	47	37
+
+> ~/python/io.py
+	"	6	0
+	^	6	1
+	.	5	1
+	+	3	0
+	+	6	12
+	+	5	34
+	+	2	0
+	+	1	0
+	+	5	1
+
+> ~/python/q5.py
+	"	33	2
+	^	33	3
+	.	33	2
+	+	1	162
+	+	1	17
+	+	1	17
+	+	4	25
+	+	27	3
+	+	28	3
+	+	1	17
+	+	1	86
+	+	4	11
+	+	2	0
+	+	1	6
+	+	1	78
+	+	1	136
+	+	1	10
+	+	4	11
+	+	1	99
+	+	1	29
+	+	4	9
+	+	1	88
+	+	1	6
+	+	1	75
+	+	1	64
+	+	1	144
+	+	1	0
+	+	41	0
+	+	39	0
+	+	32	2
+	+	33	2
+
+> ~/python/q4.py
+	"	10	20
+	^	10	21
+	.	10	20
+	+	9	0
+	+	1	18
+	+	9	0
+	+	1	21
+	+	4	1
+	+	2	2
+	+	7	9
+	+	10	20
+
+> ~/q3.py
+	"	1	0
+
+> ~/q4.py
+	"	1	0
+
+> ~/python/q3.py
+	"	4	31
+	^	4	32
+	.	4	31
+	+	1	31
+	+	16	6
+	+	16	5
+	+	16	41
+	+	16	3
+	+	16	46
+	+	16	2
+	+	20	31
+	+	16	3
+	+	16	47
+	+	17	3
+	+	13	0
+	+	14	10
+	+	1	30
+	+	15	3
+	+	16	30
+	+	16	7
+	+	16	7
+	+	17	0
+	+	11	0
+	+	7	15
+	+	15	16
+	+	5	31
+	+	15	17
+	+	2	11
+	+	3	15
+	+	7	15
+	+	3	14
+	+	2	11
+	+	5	18
+	+	5	34
+	+	6	0
+	+	4	37
+	+	5	15
+	+	1	2
+	+	4	31
+
+> ~/python/io.pyc
+	"	1	0
+
+> ~/python/q2.py
+	"	13	0
+	^	13	0
+	.	12	30
+	+	3	18
+	+	12	30
+
+> ~/leap.c
+	"	1	0
+
+> ~/python/hello.py
+	"	2	0
+	^	2	0
+	.	1	21
+	+	1	21
 
 > ~/try.c
 	"	15	1
@@ -235,17 +557,3 @@
 	^	8	0
 	.	8	0
 	+	8	0
-
-> ~/Submissions/ReadMe.md
-	"	8	0
-	^	8	0
-	.	8	0
-	+	11	0
-	+	5	10
-	+	8	0
-
-> ~/hello.c
-	"	6	0
-	^	6	0
-	.	5	1
-	+	5	1
